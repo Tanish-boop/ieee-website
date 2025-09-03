@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import { NavLink } from 'react-router-dom';
 
 const Header: React.FC = () => {
@@ -22,14 +21,21 @@ const Header: React.FC = () => {
               About Us
             </NavLink></li>
           <li><a href="#speakers">Speakers</a></li>
+          
           <li>
-            <a href="#call-for-papers">Call for Papers</a>
+              <NavLink
+                to="/CallForPaper"
+                className={({ isActive }) => (isActive ? "active-link" : "")}
+              >
+                Call For Papers
+              </NavLink>
+          </li>
+            
             <ul className="dropdown">
               <li><a href="#call-for-papers">Call for Papers</a></li>
               <li><a href="#registration-details">Registration Details</a></li>
               <li><a href="#registration-guidelines">Registration Guidelines</a></li>
             </ul>
-          </li>
           <li>
             <a href="#author-guidelines">Author Guidelines</a>
             <ul className="dropdown">

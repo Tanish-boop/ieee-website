@@ -9,6 +9,7 @@ import About from "./components/About";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Layout from "./components/Layout";
 import AboutUs from "./Pages/AboutUs";
+import CallForPaper from "./Pages/CallForPaper";
 
 // const App: React.FC = () => {
 //   return (
@@ -45,6 +46,15 @@ const App = () => {
             <MarqueeBar />,
             <AboutUs />,
           </>) 
+        },
+        {
+          path:"CallForPaper",
+          element:(
+            <>
+            <MarqueeBar />,
+            <CallForPaper/>,
+            </>
+          )
         },
       ],
     },

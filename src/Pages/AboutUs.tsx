@@ -11,21 +11,10 @@ const About: React.FC = () => {
       <section className="about-content">
         <div className="about-text">
           <p className="about-text-p">
-            The **2nd IEEE International Conference on Information,
-            Implementation and Innovation in Technology (IEEE I2ITCON2026)** is
-            a premier event that brings together leading researchers, engineers,
-            and scientists from around the world. The conference provides a
-            platform to share new findings, discuss future trends, and explore
-            innovative solutions in the fields of information technology,
-            control systems, communication, computing, and automation.
+            The 2nd IEEE International Conference on Information, Implementation and Innovation in Technology (IEEE I2ITCON2026) is a prestigious global event that unites top researchers, engineers, and scientists. The conference serves as a key platform for sharing groundbreaking findings, discussing future trends, and exploring innovative solutions in information technology, control systems, communication, computing, and automation.
           </p>
           <p className="about-text-p">
-            Our mission is to foster collaboration and knowledge exchange to
-            address the challenges and opportunities presented by rapid
-            technological advancements. Through keynotes, paper presentations,
-            and workshops, we aim to drive a paradigm shift toward **smart
-            living**, encompassing smart cities, intelligent transportation,
-            automated homes, and sustainable industries.
+            The central mission of IEEE I2ITCON2026 is to encourage collaboration and the exchange of knowledge to navigate the challenges and opportunities presented by rapid technological change. The event's theme, 'Information, Implementation and Innovation in Technology', focuses on all aspects of technological advancements and their applications in science, engineering, technology, and management. By bringing together experts from academia and industry, the conference seeks to identify and solve societal, environmental, and industrial problems using cutting-edge science and technology.
           </p>
         </div>
         <div className="about-image">
